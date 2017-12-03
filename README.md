@@ -1,6 +1,6 @@
 # AdventOfCode2017
 
-<a href="http://adventofcode.com/">Advent of code 2017</a></h1>
+<a href="http://adventofcode.com/">Advent of code 2017</a> - AoC 2017 in J and Nim, maybe Python.
 
 <table border=1 cellspacing=0 cellpadding=3>
 <thead>
