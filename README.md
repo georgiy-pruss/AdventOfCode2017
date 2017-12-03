@@ -1,7 +1,7 @@
 # AdventOfCode2017
-Advent of Code - 2017
 
 <a href="http://adventofcode.com/">Advent of code 2017</a></h1>
+
 <table border=1 cellspacing=0 cellpadding=3>
 <thead>
 <tr>
@@ -30,4 +30,5 @@ Advent of Code - 2017
 </tr>
 </tbody>
 </table>
-<p>Sorry you'll have to rename nim programs вЂ” nim can't deal with names made of digits only.
+
+Sorry you'll have to rename nim programs — nim can't deal with names made of digits only.
