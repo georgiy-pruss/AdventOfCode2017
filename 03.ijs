@@ -1,8 +1,6 @@
 t=: 3 : 'h+q+|y->:h+g+(f+q)*y>:2+f+g=.*:f[q=.2|f[h=.<.-:f=.<.%:<:y'
 
-echo t 265149 NB. 438
-
-NB. A141481 http://oeis.org/A141481
+echo t 265149 NB. 438 - http://oeis.org/A214526
 
 g=: 4 : 0
   r=.r,({:r)+v+1{u [ r=.({:>{:x)+(_2{>{:x)+v=.({:>_5{x)+{.u=.>_4{x
@@ -17,6 +15,6 @@ a=: 3 : 0
   end. end.
 )
 
-echo a 265149 NB. 266330
+echo a 265149 NB. 266330 - http://oeis.org/A141481
 
 exit 0

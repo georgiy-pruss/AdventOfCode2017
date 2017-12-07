@@ -2,17 +2,13 @@ from math import sqrt, floor
 
 n = 265149
 
-# Part 1: Distance, calculate
-
 def d( n:int )->int :
   f = int(sqrt(n-1)); h=f//2; q=f%2; g=f*f
   return abs(n-h-1-g-(f+q,0)[n<g+f+2])+h+q
 
 print(d(n))
 
-# Part 2: A141481 http://oeis.org/A141481
-
-def g( z:list, k:int )->list: # generate new part of sequence
+def g( z:list, k:int )->list:
   r = [ z[-1][-1] + z[-1][-2] + z[-5][-1] + z[-4][0] ]
   r.append( r[-1] + z[-5][-1] + z[-4][0] + z[-4][1] )
   for i in range(2,k-2):

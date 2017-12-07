@@ -2,7 +2,7 @@ import math # sqrt
 
 const n = 265149
 
-# Part 1: Distance, calculate
+# Part 1: Distance, calculate http://oeis.org/A214526
 
 proc d(n:int):int =
   let f = int sqrt float64 n-1; let h=f div 2; let q=f mod 2; let g=f*f
@@ -10,7 +10,7 @@ proc d(n:int):int =
 
 echo d n
 
-# Part 2: A141481 http://oeis.org/A141481
+# Part 2: http://oeis.org/A141481
 
 var z : seq[seq[int]] = @[]
 
