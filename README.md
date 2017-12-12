@@ -96,12 +96,12 @@ Sorry you'll have to rename nim programs — nim can't deal with names made of d
 
 Meanwhile, other warts of Nim discovered:
 
-* No % and // ops, only mod and div. Aha, there's %%. Where then //? Where?  
+* No % and // ops, only mod and div. Aha, there's %%. Where then //? [Aha, rationals. Can redefine as div]    
 * Other ops... we'll see. Documentation on expressions is absent.  
 * Parameters are const. WTF! I have to create a mutual copy not only for complex data, but even for ints!  
 * discard is disgusting. Why not skip?  
 * incl for sets must be add.  
-* No 'loop', again stupid 'while true'. GSD not True.  
+* No 'loop', again stupid 'while true'. GSD not True. [Can define with template]  
 * Not sure about @[] vs [] yet.  
 
 
