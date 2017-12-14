@@ -77,17 +77,35 @@
 <td><a href="11.txt">1151</a></td><td><a href="11.dat">22030</a></td>
 <td><a href="11.ijs">205</a></td><td><a href="11.nim">404</a></td><td><a href=""></a></td>
 </tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7j89tr/2017_day_12_solutions/">12</a></td>
+<td><a href="http://adventofcode.com/2017/day/12">Digital Plumber</a></td>
+<td><a href="12.txt">2461</a></td><td><a href="12.dat">37440</a></td>
+<td><a href="12.ijs">248</a></td><td><a href="12.nim">588</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7jgyrt/2017_day_13_solutions/">13</a></td>
+<td><a href="http://adventofcode.com/2017/day/13">Packet Scanners</a></td>
+<td><a href="13.txt">8919</a></td><td><a href="13.dat">322</a></td>
+<td><a href="13.ijs">184</a></td><td><a href="13.nim">464</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7jpelc/2017_day_14_solutions/">14</a></td>
+<td><a href="http://adventofcode.com/2017/day/14">Disk Defragmentation</a></td>
+<td><a href="14.txt">2888</a></td><td>uugsqrei</a></td>
+<td><a href="14.ijs">498</a></td><td><a href="14.nim">777</a></td><td><a href=""></a></td>
+</tr>
 </tbody>
 <!--
-(+/%#) 3050 2261 2497 1453 2249 2952 3828 1759 3466 7074 1151
-(+/%#) 2010 1118 6 23863 5764 37 31159 26701 16403 53 22030
-(+/%#) 88 112 448 108 212 195 442   259   293 481 205
-(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404
+(+/%#) 3050 2261 2497 1453 2249 2952 3828 1759 3466 7074 1151 2461 8919 2888
+(+/%#) 2010 1118 6 23863 5764 37 31159 26701 16403 53 22030 37440 322 8
+(+/%#) 88 112 448 108 212 195 442   270   293 481 205 248 184 498
+(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404 588 464 777
 -->
 <tfoot>
 <tr>
-<td>&nbsp;</td><td align=right>Mean:</td><td>2885</td><td>11740</td><td>259</td><td>637</td>
-<td><i>2.46</i></td>
+<td>&nbsp;</td><td align=right>Mean:</td><td>3286</td><td>11922</td><td>270</td><td>639</td>
+<td><i>2.37</i></td>
 </tr>
 </tfoot>
 </table>
