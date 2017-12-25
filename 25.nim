@@ -9,7 +9,7 @@ var state: int = A
 # This does not work:
 # type State = enum A,B,C,D,E,F
 # let writes: array[0..1,array[State,0..1]] = [[1,1,0,1,1,1],[0,1,0,0,1,1]]
-# let states: array[0..1,array[A..F,int]]   = [[B,A,B,A,F,D],[C,D,E,B,C,A]]
+# let states: array[0..1,array[State,State]]   = [[B,A,B,A,F,D],[C,D,E,B,C,A]]
 # So I'll have to use ints
 
 let writes: array[0..1,array[A..F,int]] = [[1,1,0,1,1,1],[0,1,0,0,1,1]]
