@@ -69,7 +69,7 @@
 <td><a href="http://adventofcode.com/2017/day/10">Knot Hash</a></td>
 <td><a href="10.txt">7074</a></td><td><a href="10.dat">53</a></td>
 <td><a href="10.ijs">481</a></td><td><a href="10.nim">1094</a>
-  <a href="10b.nim">o</a></td><td><a href=""></a></td>
+  <a href="10b.nim">opt</a></td><td><a href=""></a></td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7izym2/2017_day_11_solutions/">11</a></td>
@@ -95,17 +95,77 @@
 <td><a href="14.txt">2888</a></td><td>uugsqrei</a></td>
 <td><a href="14.ijs">498</a></td><td><a href="14.nim">777</a></td><td><a href=""></a></td>
 </tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7jxkiw/2017_day_15_solutions/">15</a></td>
+<td><a href="http://adventofcode.com/2017/day/15">Dueling Generators</a></td>
+<td><a href="15.txt">4552</a></td><td>289,629</td>
+<td><a href="15.ijs">213</a></td><td><a href="15.nim">396</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7k572l/2017_day_16_solutions/">16</a></td>
+<td><a href="http://adventofcode.com/2017/day/16">Permutation Promenade</a></td>
+<td><a href="16.txt">1841</a></td><td><a href="16.dat">48550</a></td>
+<td><a href="16.ijs">442</a></td><td><a href="16.nim">636</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7kc0xw/2017_day_17_solutions/">17</a></td>
+<td><a href="http://adventofcode.com/2017/day/17">Spinlock</a></td>
+<td><a href="17.txt">3204</a></td><td>366</td>
+<td><a href="17.ijs">253</a></td><td><a href="17.nim">253</a></td><td><a href="17x.py">py|188</a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7kj35s/2017_day_18_solutions/">18</a></td>
+<td><a href="http://adventofcode.com/2017/day/18">Duet</a></td>
+<td><a href="18.txt">5063</a></td><td><a href="18.dat">393</a></td>
+<td><a href="18a.ijs">640</a>+?</td><td><a href="18a.nim">733</a>+<a href="18b.nim">2250</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7kr2ac/2017_day_19_solutions/">19</a></td>
+<td><a href="http://adventofcode.com/2017/day/19">A Series of Tubes</a></td>
+<td><a href="19.txt">2292</a></td><td><a href="19.dat">39928</a></td>
+<td><a href="19.ijs"></a></td><td><a href="19.nim">912</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7kz6ik/2017_day_20_solutions/">20</a></td>
+<td><a href="http://adventofcode.com/2017/day/20">Particle Swarm</a></td>
+<td><a href="20.txt">3818</a></td><td><a href="20.dat">50487</a></td>
+<td><a href="20.ijs">510</a></td><td><a href="20.nim"></a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7l78eb/2017_day_21_solutions/">21</a></td>
+<td><a href="http://adventofcode.com/2017/day/21">Fractal Art</a></td>
+<td><a href="21.txt">3002</a></td><td><a href="21.dat">3804</a></td>
+<td><a href="21.ijs">323</a></td><td><a href="21.nim"></a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7lf943/2017_day_22_solutions/">22</a></td>
+<td><a href="http://adventofcode.com/2017/day/22">Sporifica Virus</a></td>
+<td><a href="22.txt">6922</a></td><td><a href="22.dat">675</a></td>
+<td><a href="22.ijs"></a></td><td><a href="22.nim">1022</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7lms6p/2017_day_23_solutions/">23</a></td>
+<td><a href="http://adventofcode.com/2017/day/23">Coprocessor Conflagration</a></td>
+<td><a href="23.txt">2115</a></td><td><a href="23.dat">312</a></td>
+<td><a href="23a.ijs">462</a>+<a href="23b.ijs">41</a></td><td><a href="23a.nim">1359</a>+<a href="23b.nim">110</a></td><td><a href=""></a></td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7lte5z/2017_day_24_solutions/">24</a></td>
+<td><a href="http://adventofcode.com/2017/day/24">Electromagnetic Moat</a></td>
+<td><a href="24.txt">2475</a></td><td><a href="24.dat">360</a></td>
+<td><a href="24.ijs">340</a></td><td><a href="24c.nim">392</a> <a href="24.nim">orig</a></td><td><a href=""></a></td>
+</tr>
 </tbody>
 <!--
-(+/%#) 3050 2261 2497 1453 2249 2952 3828 1759 3466 7074 1151 2461 8919 2888
-(+/%#) 2010 1118 6 23863 5764 37 31159 26701 16403 53 22030 37440 322 8
-(+/%#) 88 112 448 108 212 195 442   270   293 481 205 248 184 498
-(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404 588 464 777
+(+/%#) 3050 2261 2497 1453 2249 2952 3828 1759 3466 7074 1151 2461 8919 2888 4552 1841 3204 5063 2292 3818 3002 6922 2115 2475
+(+/%#) 2010 1118 6 23863 5764 37 31159 26701 16403 53 22030 37440 322 8 7 48550 3 393 39928 50487 3804 675 312 360
+(+/%#) 88 112 448 108 212 195 442  293 481 205 248 184 498 213 442 253 640 510 323  503 340
+(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404 588 464 777 396 636 253 2900 912 1022 1469 392
 -->
 <tfoot>
 <tr>
-<td>&nbsp;</td><td align=right>Mean:</td><td>3286</td><td>11922</td><td>270</td><td>639</td>
-<td><i>2.37</i></td>
+<td>&nbsp;</td><td align=right>Mean:</td><td>3387</td><td>12980</td><td>321</td><td>765</td>
+<td><i>2.4</i></td>
 </tr>
 </tfoot>
 </table>
