@@ -155,20 +155,25 @@
 <td><a href="24.txt">2475</a></td><td><a href="24.dat">360</a></td>
 <td><a href="24.ijs">340</a></td><td><a href="24c.nim">392</a> <a href="24.nim">orig</a></td><td><a href=""></a></td>
 </tr>
+<tr>
+<td><a href="https://www.reddit.com/r/adventofcode/comments/7lzo3l/2017_day_25_solutions/">25</a></td>
+<td><a href="http://adventofcode.com/2017/day/25">The Halting Problem</a></td>
+<td><a href="25.txt">4522</a></td><td><a href="25.dat">1608</a></td>
+<td><a href="25.ijs">157</a></td><td><a href="25.nim">451</a></td><td><a href=""></a></td>
+</tr>
 </tbody>
 <!--
-(+/%#) 3050 2261 2497 1453 2249 2952 3828 1759 3466 7074 1151 2461 8919 2888 4552 1841 3204 5063 2292 3818 3002 6922 2115 2475
-(+/%#) 2010 1118 6 23863 5764 37 31159 26701 16403 53 22030 37440 322 8 7 48550 3 393 39928 50487 3804 675 312 360
-(+/%#) 88 112 448 108 212 195 442  293 481 205 248 184 498 213 442 253 640 510 323  503 340
-(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404 588 464 777 396 636 253 2900 912 1022 1469 392
+(+/%#) 3050 2261 2497 1453 2249 2952 3828 1759 3466 7074 1151 2461 8919 2888 4552 1841 3204 5063 2292 3818 3002 6922 2115 2475 4522
+(+/%#) 2010 1118 6 23863 5764 37 31159 26701 16403 53 22030 37440 322 8 7 48550 3 393 39928 50487 3804 675 312 360 1608
+(+/%#) 88 112 448 108 212 195 442  293 481 205 248 184 498 213 442 253 640 510 323  503 340 157
+(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404 588 464 777 396 636 253 2900 912 1022 1469 392 451
 -->
 <tfoot>
 <tr>
-<td>&nbsp;</td><td align=right>Mean:</td><td>3387</td><td>12980</td><td>321</td><td>765</td>
+<td>&nbsp;</td><td align=right>Mean:</td><td>3430</td><td>12500</td><td>315</td><td>750</td>
 <td><i>2.4</i></td>
 </tr>
-</tfoot>
-</table>
+</tfoot></table>
 
 Sorry you'll have to rename the nim programs — nim can't deal with names starting with a digit. Such a shame.
 
@@ -176,10 +181,15 @@ Meanwhile, other warts of Nim discovered:
 
 * No % and // ops, only mod and div. Aha, there's %%. Where then //? [Aha, rationals. Can redefine as div]    
 * Other ops... we'll see. Documentation on expressions is absent.  
-* Parameters are const. WTF! I have to create a mutual copy not only for complex data, but even for ints! Yes, this feature sucks but I see the idea and not clear how to fix it. Also weird: variables -- var i: int, arguments -- i: var int   
+* Parameters are const. WTF! I have to create a mutual copy not only for complex data, but even for ints! Yes, this feature sucks but I see the idea and not clear how to fix it. Also weird: variables -- var i: int, arguments -- i: var int.   
 * discard is disgusting. Why not skip?  
-* incl for sets must be add. OK, can have alias.. probably  
+* incl for sets must be add. OK, can have alias.. probably  .
 * No 'loop', again stupid 'while true'. GSD not True. [Can define with template]  
 * Probably must be reverse: @[] <--> [].  
+* const A=1,B=2,C=3 should work!    
+* as well as var a=1, b=2 ect. Let's do it!
+* foldl, map, split, join, %% and // for ints must be in system module.    
+* var a: enum A,B -- internal error pfffff.    
+* type S = 0..1 \n var good: array[S,S] = [S(0),S(1)] \n var bad: array[S,S] = [0,1] -- should work too! in definition
 
-
+[Statistics 12/25/2017](stats.txt)
