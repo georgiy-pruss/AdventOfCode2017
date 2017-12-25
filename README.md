@@ -170,16 +170,16 @@
 </tfoot>
 </table>
 
-Sorry you'll have to rename nim programs — nim can't deal with names made of digits only.
+Sorry you'll have to rename the nim programs — nim can't deal with names starting with a digit. Such a shame.
 
 Meanwhile, other warts of Nim discovered:
 
 * No % and // ops, only mod and div. Aha, there's %%. Where then //? [Aha, rationals. Can redefine as div]    
 * Other ops... we'll see. Documentation on expressions is absent.  
-* Parameters are const. WTF! I have to create a mutual copy not only for complex data, but even for ints!  
+* Parameters are const. WTF! I have to create a mutual copy not only for complex data, but even for ints! Yes, this feature sucks but I see the idea and not clear how to fix it. Also weird: variables -- var i: int, arguments -- i: var int   
 * discard is disgusting. Why not skip?  
-* incl for sets must be add.  
+* incl for sets must be add. OK, can have alias.. probably  
 * No 'loop', again stupid 'while true'. GSD not True. [Can define with template]  
-* Not sure about @[] vs [] yet.  
+* Probably must be reverse: @[] <--> [].  
 
 
