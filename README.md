@@ -184,9 +184,9 @@ Meanwhile, other warts of Nim discovered:
 * Other ops... we'll see. Documentation on expressions is absent.  
 * Parameters are const. WTF! I have to create a mutual copy not only for complex data, but even for ints! Yes, this feature sucks but I see the idea and not clear how to fix it. Also weird: variables -- var i: int, arguments -- i: var int.   
 * discard is disgusting. Why not skip?  
-* incl for sets must be add. OK, can have alias.. probably  .
+* incl for sets must be add. OK, can have alias.. probably.    
 * No 'loop', again stupid 'while true'. GSD not True. [Can define with template]  
-* Probably must be reverse: @[] <--> [].  
+* Probably must be reverse: @[] <--> []. Aha, @ is op. Interesting. But still not sure if wise.  
 * const A=1,B=2,C=3 should work!    
 * as well as var a=1, b=2 ect. Let's do it!
 * foldl, map, split, join, %% and // for ints must be in system module.    
