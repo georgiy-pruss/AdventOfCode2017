@@ -62,50 +62,50 @@
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7iksqc/2017_day_9_solutions/">09</a></td>
 <td><a href="http://adventofcode.com/2017/day/9">Stream Processing</a></td>
 <td><a href="09.txt">3466</a></td><td><a href="09.dat">16403</a></td>
-<td><a href="09.ijs">293</a></td><td><a href="09.nim">419</a></td><td><a href=""></a></td>
+<td><a href="09.ijs">293</a></td><td><a href="09.nim">419</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7irzg5/2017_day_10_solutions/">10</a></td>
 <td><a href="http://adventofcode.com/2017/day/10">Knot Hash</a></td>
 <td><a href="10.txt">7074</a></td><td><a href="10.dat">53</a></td>
 <td><a href="10.ijs">481</a></td><td><a href="10.nim">1094</a>
-  <a href="10b.nim">opt</a></td><td><a href=""></a></td>
+  <a href="10b.nim">opt</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7izym2/2017_day_11_solutions/">11</a></td>
 <td><a href="http://adventofcode.com/2017/day/11">Hex Ed</a></td>
 <td><a href="11.txt">1151</a></td><td><a href="11.dat">22030</a></td>
-<td><a href="11.ijs">205</a></td><td><a href="11.nim">404</a></td><td><a href=""></a></td>
+<td><a href="11.ijs">205</a></td><td><a href="11.nim">404</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7j89tr/2017_day_12_solutions/">12</a></td>
 <td><a href="http://adventofcode.com/2017/day/12">Digital Plumber</a></td>
 <td><a href="12.txt">2461</a></td><td><a href="12.dat">37440</a></td>
-<td><a href="12.ijs">248</a></td><td><a href="12.nim">588</a></td><td><a href=""></a></td>
+<td><a href="12.ijs">248</a></td><td><a href="12.nim">588</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7jgyrt/2017_day_13_solutions/">13</a></td>
 <td><a href="http://adventofcode.com/2017/day/13">Packet Scanners</a></td>
 <td><a href="13.txt">8919</a></td><td><a href="13.dat">322</a></td>
-<td><a href="13.ijs">184</a></td><td><a href="13.nim">464</a></td><td><a href=""></a></td>
+<td><a href="13.ijs">184</a></td><td><a href="13.nim">464</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7jpelc/2017_day_14_solutions/">14</a></td>
 <td><a href="http://adventofcode.com/2017/day/14">Disk Defragmentation</a></td>
 <td><a href="14.txt">2888</a></td><td>uugsqrei</a></td>
-<td><a href="14.ijs">498</a></td><td><a href="14.nim">777</a></td><td><a href=""></a></td>
+<td><a href="14.ijs">498</a></td><td><a href="14.nim">777</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7jxkiw/2017_day_15_solutions/">15</a></td>
 <td><a href="http://adventofcode.com/2017/day/15">Dueling Generators</a></td>
 <td><a href="15.txt">4552</a></td><td>289,629</td>
-<td><a href="15.ijs">213</a></td><td><a href="15.nim">396</a></td><td><a href=""></a></td>
+<td><a href="15.ijs">213</a></td><td><a href="15.nim">396</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7k572l/2017_day_16_solutions/">16</a></td>
 <td><a href="http://adventofcode.com/2017/day/16">Permutation Promenade</a></td>
 <td><a href="16.txt">1841</a></td><td><a href="16.dat">48550</a></td>
-<td><a href="16.ijs">442</a></td><td><a href="16.nim">636</a></td><td><a href=""></a></td>
+<td><a href="16.ijs">442</a></td><td><a href="16.nim">636</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7kc0xw/2017_day_17_solutions/">17</a></td>
@@ -117,49 +117,50 @@
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7kj35s/2017_day_18_solutions/">18</a></td>
 <td><a href="http://adventofcode.com/2017/day/18">Duet</a></td>
 <td><a href="18.txt">5063</a></td><td><a href="18.dat">393</a></td>
-<td><a href="18a.ijs">640</a>+?</td><td><a href="18a.nim">733</a>+<a href="18b.nim">2250</a></td><td><a href=""></a></td>
+<td><a href="18a.ijs">640</a>+?</td><td><a href="18a.nim">733</a>+<a href="18b.nim">2250</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7kr2ac/2017_day_19_solutions/">19</a></td>
 <td><a href="http://adventofcode.com/2017/day/19">A Series of Tubes</a></td>
 <td><a href="19.txt">2292</a></td><td><a href="19.dat">39928</a></td>
-<td><a href="19.ijs"></a></td><td><a href="19.nim">912</a></td><td><a href=""></a></td>
+<td><a href="19.ijs"></a></td><td><a href="19.nim">912</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7kz6ik/2017_day_20_solutions/">20</a></td>
 <td><a href="http://adventofcode.com/2017/day/20">Particle Swarm</a></td>
 <td><a href="20.txt">3818</a></td><td><a href="20.dat">50487</a></td>
-<td><a href="20.ijs">510</a></td><td><a href="20.nim"></a></td><td><a href=""></a></td>
+<td><a href="20.ijs">510</a></td><td><a href="20.nim"></a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7l78eb/2017_day_21_solutions/">21</a></td>
 <td><a href="http://adventofcode.com/2017/day/21">Fractal Art</a></td>
 <td><a href="21.txt">3002</a></td><td><a href="21.dat">3804</a></td>
-<td><a href="21.ijs">323</a></td><td><a href="21.nim"></a></td><td><a href=""></a></td>
+<td><a href="21.ijs">323</a></td><td><a href="21.nim"></a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7lf943/2017_day_22_solutions/">22</a></td>
 <td><a href="http://adventofcode.com/2017/day/22">Sporifica Virus</a></td>
 <td><a href="22.txt">6922</a></td><td><a href="22.dat">675</a></td>
-<td><a href="22.ijs"></a></td><td><a href="22.nim">1022</a></td><td><a href=""></a></td>
+<td><a href="22.ijs"></a></td><td><a href="22.nim">1022</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7lms6p/2017_day_23_solutions/">23</a></td>
 <td><a href="http://adventofcode.com/2017/day/23">Coprocessor Conflagration</a></td>
 <td><a href="23.txt">2115</a></td><td><a href="23.dat">312</a></td>
-<td><a href="23a.ijs">462</a>+<a href="23b.ijs">41</a></td><td><a href="23a.nim">1359</a>+<a href="23b.nim">110</a></td><td><a href=""></a></td>
+<td><a href="23a.ijs">462</a>+<a href="23b.ijs">41</a></td><td><a href="23a.nim">1359</a>+<a href="23b.nim">110</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7lte5z/2017_day_24_solutions/">24</a></td>
 <td><a href="http://adventofcode.com/2017/day/24">Electromagnetic Moat</a></td>
 <td><a href="24.txt">2475</a></td><td><a href="24.dat">360</a></td>
-<td><a href="24.ijs">340</a></td><td><a href="24c.nim">392</a> <a href="24.nim">orig</a></td><td><a href=""></a></td>
+<td><a href="24.ijs">340</a></td><td><a href="24c.nim">392</a> <a href="24.nim">orig</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7lzo3l/2017_day_25_solutions/">25</a></td>
 <td><a href="http://adventofcode.com/2017/day/25">The Halting Problem</a></td>
 <td><a href="25.txt">4522</a></td><td><a href="25.dat">1608</a></td>
-<td><a href="25.ijs">157</a></td><td><a href="25.nim">451</a></td><td><a href=""></a></td>
+<td><a href="25c.ijs">155</a> <a href="25.ijs">o</a></td>
+<td><a href="25.nim">451</a>/<a href="25rc.nim">666</a> <a href="25r.nim">o</a></td><td>&nbsp;</td>
 </tr>
 </tbody>
 <!--
