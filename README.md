@@ -200,3 +200,4 @@ Meanwhile, some warts of Nim discovered:
 * foldl, map, split, join, sum, ^ (power) %% and // for ints must be in system module. Also << >> & | ~ (xor)    
 * var a: enum A,B -- internal error pfffff.    
 * type S = 0..1 \n var good: array[S,S] = [S(0),S(1)] \n var bad: array[S,S] = [0,1] -- should work too! in definition
+* what's wrong with `for i in 0..10: if a[i]>0: echo a[i]; t+=a[i] else: echo "!",i`? what can be misunderstood there?
