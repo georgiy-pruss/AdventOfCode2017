@@ -129,7 +129,8 @@
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7kz6ik/2017_day_20_solutions/">20</a></td>
 <td><a href="http://adventofcode.com/2017/day/20">Particle Swarm</a></td>
 <td><a href="20.txt">3818</a></td><td><a href="20.dat">50487</a></td>
-<td><a href="20.ijs">510</a></td><td><a href="20.nim"></a></td><td>&nbsp;</td>
+<td><a href="20.ijs">510</a></td><td><a href="20.nim">1570</a>
+  <a href="20c.nim" title="without end condition">986x</a></td><td>&nbsp;</td>
 </tr>
 <tr>
 <td><a href="https://www.reddit.com/r/adventofcode/comments/7l78eb/2017_day_21_solutions/">21</a></td>
@@ -167,16 +168,22 @@
 (+/%#) 3050 2261 2497 1453 2249 2952 3828 1759 3466 7074 1151 2461 8919 2888 4552 1841 3204 5063 2292 3818 3002 6922 2115 2475 4522
 (+/%#) 2010 1118 6 23863 5764 37 31159 26701 16403 53 22030 37440 322 8 7 48550 3 393 39928 50487 3804 675 312 360 1608
 (+/%#) 88 112 448 108 212 195 442  293 481 205 248 184 498 213 442 253 640 510 323  503 340 157
-(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404 588 464 777 396 636 253 2900 912 1022 1469 392 451
+(+/%#) 287 301 891 518 405 481 1492 719 419 1094 404 588 464 777 396 636 253 2900 912 986 1022 1469 392 451
 -->
 <tfoot>
 <tr>
-<td>&nbsp;</td><td align=right>Mean:</td><td>3430</td><td>12500</td><td>315</td><td>750</td>
+<td>&nbsp;</td><td align=right>Mean:</td><td>3430</td><td>12500</td><td>315</td><td>760</td>
 <td><i>2.4</i></td>
 </tr>
-</tfoot></table>
+</tfoot>
+</table>
 
-Sorry you'll have to rename the nim programs — nim can't deal with names starting with a digit. Such a shame.
+Sorry you'll have to rename the nim programs — nim can't deal with names starting with a digit.
+Such a shame. Otherwise you can use my modifications for Win/64:
+<a href="nim_mod.7z" title="nim_mod.exe 0.17.2 win/64">exe</a>
+(<a href="1_2_modified_modnames.7z" title="in c_code/1_2/ 0.17.2">src</a>).
+
+Statistics: <a href="stats.txt">12/25/2017</a><a href="stats28.txt">12/28/2017</a>
 
 Meanwhile, other warts of Nim discovered:
 
@@ -192,5 +199,3 @@ Meanwhile, other warts of Nim discovered:
 * foldl, map, split, join, sum, ^ (power) %% and // for ints must be in system module. Also << >> & | ~ (xor)    
 * var a: enum A,B -- internal error pfffff.    
 * type S = 0..1 \n var good: array[S,S] = [S(0),S(1)] \n var bad: array[S,S] = [0,1] -- should work too! in definition
-
-[Statistics 12/25/2017](stats.txt)
