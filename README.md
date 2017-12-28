@@ -196,6 +196,7 @@ Meanwhile, some warts of Nim discovered:
 * Probably must be reverse: @[] <--> []. Aha, @ is op. Interesting. But still not sure if wise.  
 * const A=1,B=2,C=3 should work!    
 * as well as var a=1, b=2 ect. Let's do it!
+* really annoying that you can't write a=-1 or b+=+1 or c=@[] -- there must be ' ' after '='. This should be fixed!
 * foldl, map, split, join, sum, ^ (power) %% and // for ints must be in system module. Also << >> & | ~ (xor)    
 * var a: enum A,B -- internal error pfffff.    
 * type S = 0..1 \n var good: array[S,S] = [S(0),S(1)] \n var bad: array[S,S] = [0,1] -- should work too! in definition
