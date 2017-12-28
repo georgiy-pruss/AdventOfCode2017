@@ -180,12 +180,12 @@
 
 Sorry you'll have to rename the nim programs — nim can't deal with names starting with a digit.
 Such a shame. Otherwise you can use my modifications for Win/64:
-<a href="nim_mod.7z" title="nim_mod.exe 0.17.2 win/64">exe</a>
-(<a href="1_2_modified_modnames.7z" title="in c_code/1_2/ 0.17.2">src</a>).
+<a href="http://mas.orgfree.com/adventofcode2017/nim_mod.7z" title="nim_mod.exe 0.17.2 win/64">exe</a>
+(<a href="http://mas.orgfree.com/adventofcode2017/1_2_modified_modnames.7z" title="in c_code/1_2/ 0.17.2">src</a>).
 
-Statistics: <a href="stats.txt">12/25/2017</a><a href="stats28.txt">12/28/2017</a>
+Statistics: <a href="stats.txt">12/25/2017</a>, <a href="stats28.txt">12/28/2017</a>.
 
-Meanwhile, other warts of Nim discovered:
+Meanwhile, some warts of Nim discovered:
 
 * No % and // ops, only mod and div. Aha, there's %%. Where then //? [Aha, rationals. Can redefine as div]    
 * Other ops... we'll see. Documentation on expressions is absent.  
